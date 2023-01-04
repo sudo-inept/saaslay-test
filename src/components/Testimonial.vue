@@ -64,7 +64,7 @@
                 <tab>
                   <div class="rn-testimonial-item">
                     <div class="thumbnail">
-                      <img src="/assets/images/testimonial/testimonial-1.png" alt="Testimonial Images"/>
+                      <img src="" alt="Testimonial Images"/>
                     </div>
                     <div class="content">
                       <h4 class="title">Jogn Due</h4>
@@ -81,7 +81,7 @@
                 <tab>
                   <div class="rn-testimonial-item">
                     <div class="thumbnail">
-                      <img src="/assets/images/testimonial/testimonial-2.png" alt="Testimonial Images"/>
+                      <img src="" alt="Testimonial Images"/>
                     </div>
                     <div class="content">
                       <h4 class="title">Fatima Asrafy</h4>
@@ -98,7 +98,7 @@
                 <tab>
                   <div class="rn-testimonial-item">
                     <div class="thumbnail">
-                      <img src="/assets/images/testimonial/testimonial-3.png" alt="Testimonial Images"/>
+                      <img src="" alt="Testimonial Images"/>
                     </div>
                     <div class="content">
                       <h4 class="title">Jannin Jow</h4>
@@ -115,7 +115,7 @@
                 <tab>
                   <div class="rn-testimonial-item">
                     <div class="thumbnail">
-                      <img src="/assets/images/testimonial/testimonial-4.png" alt="Testimonial Images"/>
+                      <img src="" alt="Testimonial Images"/>
                     </div>
                     <div class="content">
                       <h4 class="title">Johns Due</h4>
@@ -133,7 +133,7 @@
                 <tab>
                   <div class="rn-testimonial-item">
                     <div class="thumbnail">
-                      <img src="/assets/images/testimonial/testimonial-5.png" alt="Testimonial Images"/>
+                      <img src="" alt="Testimonial Images"/>
                     </div>
                     <div class="content">
                       <h4 class="title">John Doe</h4>
