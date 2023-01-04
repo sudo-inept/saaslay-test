@@ -1,0 +1,97 @@
+<template>
+    <header class="header-area header--fixed formobile-menu header--transparent" :class="color">
+      <div class="header-wrapper" id="header-wrapper">
+        <div class="header-left">
+          <div class="logo">
+            <a href="/">
+              <img :src="logoUrl" alt="Digital Agency" />
+            </a>
+          </div>
+        </div>
+        <div class="header-right">
+          <nav class="mainmenunav d-lg-block">
+            <ul class="mainmenu">
+              <li class="has-droupdown"><router-link to="/">Home</router-link>
+              </li>
+              <li class="has-droupdown"><router-link to="/service">Service</router-link>
+                <ul class="submenu">
+                  <li><router-link to="/service">Service</router-link></li>
+                  <li><router-link to="/service-details">Service Details</router-link></li>
+                </ul>
+              </li>
+              <li><router-link to="/about">About</router-link></li>
+              <li class="has-droupdown"><router-link to="/">Pages</router-link>
+                <ul class="submenu">
+                  <li><router-link to="/blog">Blog List</router-link></li>
+                  <li><router-link to="/blog-details">Blog Details</router-link></li>
+                </ul>
+              </li>
+              <li><router-link to="/contact">Contact</router-link></li>
+            </ul>
+          </nav>
+          <div class="header-btn">
+            <a class="btn-default btn-border btn-signin" @click="showSigninModal = true">Sign In</a>
+            <fi-menu class="menu-trigger" @click="menuTrigger"></fi-menu>
+          </div>
+          <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10" @click="menuTrigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </div>
+      </div>
+      <modal v-if="showSigninModal" @close="showSigninModal = false">
+        <!-- Sign In Form Goes Here -->
+      </modal>
+    </header>
+  </template>
+  
+  <script>
+  export default {
+    name: 'Header',
+    props: {
+      logo: String,
+      color: {
+        type: String,
+        default: 'default-color'
+      }
+    },
+    data() {
+      return {
+        showSigninModal: false
+      }
+    },
+    computed: {
+      logoUrl() {
+        if (this.logo === 'light') {
+          return '/assets/images/logo/logo-light.png';
+        } else if (this.logo === 'dark') {
+          return '/assets/images/logo/logo-dark.png';
+        } else if (this.logo === 'symbol-dark') {
+          return '/assets/images/logo/logo-symbol-dark.png';
+        } else if (this.logo === 'symbol-light') {
+          return '/assets/images/logo/logo-symbol-light.png';
+        } else {
+          return '/assets/images/logo/logo.png';
+        }
+      }
+    },
+    methods: {
+      menuTrigger() {
+        document.querySelector('.header-wrapper').classList.toggle('menu-open')
+      },
+      CLoseMenuTrigger() {
+        document.querySelector('.header-wrapper').classList.remove('menu-open');
+      }
+    },
+    mounted() {
+      const elements = document.querySelectorAll('.has-droupdown > a');
+      for (const element of elements) {
+        element.addEventListener('click', () => {
+          element.parentElement.querySelector('.submenu').classList.toggle('active');
+          element.classList.toggle('open');
+        });
+      }
+    }
+  }
+  </script>
