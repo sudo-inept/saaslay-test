@@ -10,7 +10,13 @@ export default {
 </script>
 
 <template>
-  <Header />
+  <div class="active-dark">
+    <Header
+      :headertransparent="'header--transparent'"
+      :colorblack="'color--black'"
+      :logoname="'logo.png'"
+    />
+    </div>
     <Router-view></Router-view>
 </template>
 

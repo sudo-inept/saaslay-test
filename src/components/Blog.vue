@@ -4,15 +4,15 @@
 
       <div class="rn-blog-area ptb--120 bg_color--1">
           <div class="container">
-              <BlogList />
+                <Blogs />
           </div>
       </div>
 
-      <div className="backto-top">
-        <ScrollTopArrow />
-      </div>
+      <div class="backto-top">
+      <ScrollTopArrow />
+    </div>
 
-      <Footer />
+    <Footer />
 
     </div>
 </template>
@@ -22,6 +22,7 @@
 import Breadcrumb from './Breadcrumb.vue';
 import BlogContent from './BlogContent';
 import BlogList from './BlogList.vue';
+import Blogs from './Blogs.vue';
 import Footer from './Footer.vue';
 import ScrollTopArrow from './ScrollTopArrow.vue';
 
@@ -30,9 +31,10 @@ export default {
     Breadcrumb,
     BlogContent,
     BlogList,
+    Blogs,
     Footer,
     ScrollTopArrow
-  }
+  },
 }
 </script>
   

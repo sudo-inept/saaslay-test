@@ -11,7 +11,7 @@
         <div class="header-right">
           <nav class="mainmenunav d-lg-block">
             <ul class="mainmenu">
-              <li class="has-droupdown"><router-link to="/">Home</router-link>
+              <li><router-link to="/">Home</router-link>
               </li>
               <li class="has-droupdown"><router-link to="/service">Service</router-link>
                 <ul class="submenu">
@@ -20,7 +20,7 @@
                 </ul>
               </li>
               <li><router-link to="/about">About</router-link></li>
-              <li class="has-droupdown"><router-link to="/">Pages</router-link>
+              <li class="has-droupdown"><router-link to="/blog">Pages</router-link>
                 <ul class="submenu">
                   <li><router-link to="/blog">Blog List</router-link></li>
                   <li><router-link to="/blog-details">Blog Details</router-link></li>
@@ -31,13 +31,15 @@
           </nav>
           <div class="header-btn">
             <a class="btn-default btn-border btn-signin" @click="showSigninModal = true">Sign In</a>
-            <fi-menu class="menu-trigger" @click="menuTrigger"></fi-menu>
           </div>
-          <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10" @click="menuTrigger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
+          <span>
+            <IconTool class="mmenutrigger text-white" @click="menuTrigger"></IconTool>
+             </span>
+          </div>
+          <div class="close-menu d-block d-lg-none">
+              <span><IconTool class="closeTrigger" @click="CLoseMenuTrigger"></IconTool></span>
+          </div>
         </div>
       </div>
       <modal v-if="showSigninModal" @close="showSigninModal = false">
@@ -47,8 +49,10 @@
   </template>
   
   <script>
+  import IconTool from './icons/IconTooling.vue';
   export default {
     name: 'Header',
+    components : { IconTool },
     props: {
       logo: String,
       color: {
