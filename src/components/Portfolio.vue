@@ -58,21 +58,21 @@ export default {
       portfolioList: [
         {
           image: "/assets/images/portfolio/portfolio-8.jpg",
-          category: "Development",
-          title: "Web Design",
-          description: "Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.",
+          category: "Application",
+          title: "SlayHub",
+          description: "SlayHub helps your customer facing teams of Zendesk to connect with your product repositories of Azure DevOps or GitHub. This helps your avoid any enhance tracking the inflow of requests, issues or bugs thus helping you serve your customers better.",
         },
         {
           image: "/assets/images/portfolio/portfolio-9.jpg",
-          category: "Product Design",
-          title: "App Development",
-          description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+          category: "Application",
+          title: "KnowL",
+          description: "Built a cloud-based Custom Knowledge Base solution for a leading HRMS Solution provider to help their customers understand and leverage their product offerings.",
         },
         {
           image: "/assets/images/portfolio/portfolio-10.jpg",
           category: "Application",
-          title: "Photoshop Design",
-          description: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit.",
+          title: "LoopO",
+          description: "As a chrome extension it helps users leverage the power of ChatGPT to create engaging and tailored comments/posts for LinkedIn effortlessly.",
         },
       ],
     };

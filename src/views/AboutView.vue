@@ -104,11 +104,11 @@
                     </div>
                 </div>
 
-    <div class="rn-testimonial-area bg_color--5 ptb--120">
+    <!-- <div class="rn-testimonial-area bg_color--5 ptb--120">
        <div class="container">
           <Testimonial />
        </div>
-    </div>
+    </div> -->
 
     <div class="rn-brand-area bg_color--1 ptb--120">
         <div class="container">

@@ -5,7 +5,7 @@
          <div class="row">
            <div class="col-lg-12">
              <div class="rn-page-title text-center pt--100 pt_md--50 pt_sm--100">
-               <h2 class="title theme-gradient">Website Development</h2>
+               <h2 class="title theme-gradient">Product Development</h2>
                <p>Fresh From The Press Discription</p>
              </div>
            </div>
@@ -30,26 +30,26 @@
                      <div class="details mt_md--30 mt_sm--30">
                        <div class="section-title">
                          <span class="subtitle">Our service</span>
-                         <h2 class="title">Providing Service</h2>
-                         <p class="description">But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                         <p class="description">If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing</p>
+                         <h2 class="title">Product Development</h2>
+                         <p class="description">Our process is holistic and covers the entire product development lifecycle, from ideation to deployment and support. We work closely with our clients to understand their needs and goals, and we use our expertise and experience to create products that are both innovative and user-friendly.</p>
+                         <p class="description">Ready to take your business to the next level? Contact us today to learn how SaasLay can help you achieve your business goals.</p>
                        </div>
                        <ul class="service-details-list">
                          <li>
                            <!-- <fi-check /> -->
-                           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+                           <span>Discovery and Planning: We collaborate with you to understand your vision, goals, and target market. We conduct market research and create a comprehensive project plan to ensure alignment and success.</span>
                          </li>
                          <li>
-                           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+                           <span>Design and Prototyping: Our talented design team translates your ideas into visually appealing and user-friendly interfaces. We create interactive prototypes to gather feedback and iterate on the design.</span>
                            </li>
                         <li>
-                          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+                          <span>Development and Testing: Our experienced developers bring the design to life, using the latest technologies and best practices. We follow rigorous testing procedures to ensure quality, performance, and security</span>
                         </li>
                         <li>
-                          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+                          <span>Deployment and Support: We assist with the deployment of the product, whether it's on-premises or in the cloud. We also provide ongoing support and maintenance to ensure your product's long-term success.</span>
                         </li>
                         <li>
-                          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+                          <span>If you're looking for a partner to help you bring your product to market, SaasLay is the perfect choice. We have the expertise, experience, and passion to help you succeed.</span>
                         </li>
                         <li>
                           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>

@@ -71,10 +71,10 @@ export default {
       date: 'May 18, 2021',
       author: 'Fatima Asrafi',
       comments: 15,
-      body: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks.',
+      body: 'SaasLay\'s technology consulting services help businesses navigate the complex technological landscape and make informed decisions that drive growth and efficiency. We offer strategic guidance and practical solutions tailored to your unique business requirements ',
       imageUrl: '/assets/images/blog/bl-big-01.jpg',
       imageAlt: 'Blog Images',
-      quote: 'Necessary, making this the first true generator on the Internet. It re are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injectedeed eedhumour, or randomised words which don\'t look even slightly believable.',
+      quote: 'If you\'re looking for a partner to help you navigate the complex technological landscape and make informed decisions that drive growth and efficiency, SaasLay is the perfect choice. We have the expertise, experience, and passion to help you succeed. ',
       videoChannel: 'youtube',
       videoId: '_ysd-zHamjk'
     };

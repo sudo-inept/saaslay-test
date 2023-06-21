@@ -22,7 +22,10 @@
                 <div class="icon">{{ val.icon }}</div>
                 <div class="content">
                   <h3 class="title">{{ val.title }}</h3>
-                  <p>{{ val.description }}</p>
+                  <p style="overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;">{{ val.description }}</p>
                 </div>
               </div>
             </a>
@@ -47,46 +50,55 @@ export default {
   },
   data() {
     return {
-      title: "Services provide for you.",
+      title: "Our products and services",
       description:
-        "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.",
+        "SaasLay is a technology company that is passionate about using technology to drive innovation and empower businesses. We have years of experience and a team of dedicated professionals who are experts in product development, SaaS products, and technology consulting. We are committed to providing our clients with the highest quality services and solutions that help them achieve their business goals",
       subtitle: "What we can do for you",
       serviceList: [
         {
           icon: "IconSupport",
-          title: "Business Stratagy",
+          title: "Software Architecture",
           description:
-            "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut."
+            "SaasLay is your one-stop shop for software architecture and development consulting. We help you build the software you need to succeed, from ideation to deployment. Our expert consultants have deep industry knowledge and technical expertise to guide you through the entire process, ensuring that your systems are designed and implemented to meet your unique business needs. ",
+          path: ""
         },
         {
           icon: "IconSupport",
-          title: "Website Development",
+          title: "Digital transformation consulting ",
           description:
-            "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            "SaasLay is your digital transformation partner. We help you harness the power of technology to transform your business and achieve your goals. Our expert consultants have a deep understanding of the latest technologies and trends, and we work with you to develop a customized transformation plan that meets your specific needs.  ",
+          path: ""
         },
         {
           icon: "IconSupport",
           title: "Marketing & Reporting",
           description:
-            "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut."
+            "SaasLay is your digital transformation partner. We help you harness the power of technology to transform your business and achieve your goals. Our expert consultants have a deep understanding of the latest technologies and trends, and we work with you to develop a customized transformation plan that meets your specific needs.",
+          path: ""
         },
         {
           icon: "IconSupport",
-          title: "Mobile Development",
+          title: "IT Project Management",
           description:
-            "Desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "SaasLay is a trusted partner for IT project management. We help businesses of all sizes successfully plan, execute, and deliver IT projects on time, within budget, and to the highest quality standards. Our experienced project managers combine technical expertise with proven project management methodologies to drive successful outcomes for your organization. ",
+          path: ""
+
         },
         {
           icon: "IconSupport",
-          title: "Email Marketing",
+          title: "Cloud Computing and Infrastructure Optimization",
           description:
-            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in."
+            "SaasLay is a trusted partner for cloud computing and infrastructure optimization. We help businesses of all sizes leverage the power of the cloud to improve scalability, flexibility, and cost-efficiency. Our expert consultants use their deep expertise in cloud technologies and infrastructure management to guide you through the process of optimizing your infrastructure for maximum performance and ROI. ",
+          path: ""
+
         },
         {
           icon: "IconSupport",
-          title: "Copywriting",
+          title: "Cybersecurity and Data Privacy",
           description:
-            "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for."
+            "SaasLay is your trusted partner for cybersecurity and data privacy. In today's digital world, protecting your sensitive data and systems is more important than ever. We help businesses of all sizes safeguard their data and systems from evolving threats by providing comprehensive cybersecurity solutions that meet their specific needs and requirements. Contact us today to learn more. ",
+          path: ""
+
         }
       ]
     };

@@ -33,12 +33,12 @@
             <a class="btn-default btn-border btn-signin" @click="showSigninModal = true">Sign In</a>
           </div>
           <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
-          <span>
-            <IconTool class="mmenutrigger text-white" @click="menuTrigger"></IconTool>
+          <span class="mmenutrigger text-white" @click="menuTrigger">
+            <img src="../../public/assets/images/logo/menu.png" alt="Digital Agency" />
              </span>
           </div>
           <div class="close-menu d-block d-lg-none">
-              <span><IconTool class="closeTrigger" @click="CLoseMenuTrigger"></IconTool></span>
+              <span class="closeTrigger" @click="CLoseMenuTrigger"><img src="../../public/assets/images/logo/menu.png" alt="Digital Agency" /></span>
           </div>
         </div>
       </div>
@@ -68,15 +68,15 @@
     computed: {
       logoUrl() {
         if (this.logo === 'light') {
-          return '/assets/images/logo/logo-light.png';
+          return '../../public/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'dark') {
-          return '/assets/images/logo/logo-dark.png';
+          return '../../public/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'symbol-dark') {
-          return '/assets/images/logo/logo-symbol-dark.png';
+          return '../../public/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'symbol-light') {
-          return '/assets/images/logo/logo-symbol-light.png';
+          return '../../public/assets/images/logo/SaasLay.png';
         } else {
-          return '/assets/images/logo/logo.png';
+          return '../../public/assets/images/logo/SaasLay.png';
         }
       }
     },

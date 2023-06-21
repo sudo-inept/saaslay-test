@@ -30,8 +30,29 @@
       <!-- End Portfolio Area -->
   
 
+      <div class="rn-counterup-area ptb--120 bg_color--5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center">
+                <span class="subtitle">Experts growts</span>
+                <h2 class="title">Our Company Growth</h2>
+                <p class="description">We have grown strength over the past 20 years.</p>
+              </div>
+            </div>
+          </div>
+          <CounterOne />
+        </div>
+      </div>
+
   
-     
+      <!-- Start Testimonial Area -->
+      <!-- <div class="rn-testimonial-area bg_color--1 ptb--120">
+        <div class="container">
+          <Testimonial />
+        </div>
+      </div> -->
+      <!-- End Testimonial Area -->
   
       <!-- Start Blog Area -->
       <div class="rn-blog-area ptb--120 bg_color--5">
@@ -127,6 +148,7 @@ import Portfolio from "./Portfolio.vue";
 import BrandTwo from "./BrandTwo.vue";
 import BlogList from "./BlogList.vue";
 import BlogContent from "./BlogContent.js";
+import CounterOne from "./CounterOne.vue";
 
 export default {
   name: "MainDemo",
@@ -141,6 +163,7 @@ export default {
     BrandTwo,
     ScrollTopArrow,
     BlogList,
+    CounterOne,
   },
   data() {
     return {

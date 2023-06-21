@@ -26,13 +26,13 @@
         serviceList: [
           {
             icon: "FiActivity",
-            title: "Awarded Design",
+            title: "SlayHub",
             description:
-              "There are many variations variations of passages of Lorem Ipsum available, but the majority have suffered.",
+              "SlayHub helps your customer facing teams of Zendesk to connect with your product repositories of Azure DevOps or GitHub. This helps your avoid any enhance tracking the inflow of requests, issues or bugs thus helping you serve your customers better.",
           },
           {
             icon: "FiCast",
-            title: "Design & Creative",
+            title: "KnowL",
             description:
               "Passages there are many variations variations of of Lorem Ipsum available, but the majority have suffered.",
           },

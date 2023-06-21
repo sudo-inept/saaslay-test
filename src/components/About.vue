@@ -16,8 +16,11 @@
                 <h2 class="title">{{ title }}</h2>
                 <p class="description">{{ description }}</p>
                 <p class="description">{{ description2 }}</p>
+                <p class="description">{{ description3 }}</p>
+                <p class="description">{{ description4 }}</p>
+                <p class="description">{{ description5 }}</p>
                 <div class="purchase-btn">
-                  <router-link class="btn-transparent" to="/">PURCHASE IMROZ</router-link>
+                  <router-link class="btn-transparent" to="/">SAASLAY</router-link>
                 </div>
               </div>
             </div>
@@ -32,9 +35,12 @@
   export default {
     data() {
       return {
-        title: 'Refreshingly Unique Company About.',
-        description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
-        description2: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences',
+        title: 'Refreshingly Unique About SaasLay.',
+        description: 'We help businesses thrive in the digital age with our expertise in product development, SaaS products, and technology consulting.',
+        description2: 'We use the latest technologies and best practices to create solutions that help businesses grow and become more efficient.',
+        description3: 'We provide comprehensive services that cover the entire product development lifecycle, from conceptualization to deployment.',
+        description4: 'We have a proven track record of success, with satisfied clients who have seen their businesses grow and improve as a result of our services.',
+        description5: 'We tailor our services to meet the specific needs and goals of each business.',
       };
     },
 

@@ -5,6 +5,7 @@ import BlogDetails from "../components/BlogDetails.vue";
 import Service from "../components/Service.vue";
 import ServiceDetails from "../components/ServiceDetails.vue";
 import Contact from "../components/Contact.vue";
+import PortfolioDetails from "../components/PortfolioDetails.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +47,11 @@ const router = createRouter({
       path: "/contact",
       name: "contact",
       component: Contact,
+    },
+    {
+      path: "/portfolio-details",
+      name: "portfolio-details",
+      component: PortfolioDetails,
     },
   ],
 });

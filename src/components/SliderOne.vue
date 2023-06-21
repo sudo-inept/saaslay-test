@@ -8,7 +8,7 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="inner">
-                <h1 class="title theme-gradient">Design Driven Development Your Web Products.</h1>
+                <h1 class="title theme-gradient">Empowering Businesses to Thrive in the Digital Economy</h1>
               </div>
             </div>
           </div>
