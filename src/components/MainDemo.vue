@@ -30,7 +30,7 @@
       <!-- End Portfolio Area -->
   
 
-      <div class="rn-counterup-area ptb--120 bg_color--5">
+      <!-- <div class="rn-counterup-area ptb--120 bg_color--5">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -43,7 +43,7 @@
           </div>
           <CounterOne />
         </div>
-      </div>
+      </div> -->
 
   
       <!-- Start Testimonial Area -->
@@ -55,7 +55,7 @@
       <!-- End Testimonial Area -->
   
       <!-- Start Blog Area -->
-      <div class="rn-blog-area ptb--120 bg_color--5">
+      <!-- <div class="rn-blog-area ptb--120 bg_color--5">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -98,11 +98,11 @@
           </div>
         </div>    
       </div>    
-    </div>
+    </div> -->
       <!-- End Blog Area -->
   
     <!-- Start Brand Area -->
-    <div class="rn-brand-area bg_color--1 ptb--120">
+    <!-- <div class="rn-brand-area bg_color--1 ptb--120">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -118,7 +118,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End Brand Area -->
     
     <!-- Start Back To Top -->

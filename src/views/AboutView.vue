@@ -28,7 +28,7 @@
               <div class="content-wrapper">
                 <h4 class="theme-gradient">Find Your Work Now</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                <a class="btn-default" href="/about">Get Started</a>
+                <router-link class="btn-default" to="/about">Get Started</router-link>
               </div>
             </div>
           </div>
@@ -104,29 +104,9 @@
                     </div>
                 </div>
 
-    <!-- <div class="rn-testimonial-area bg_color--5 ptb--120">
-       <div class="container">
-          <Testimonial />
-       </div>
-    </div> -->
 
-    <div class="rn-brand-area bg_color--1 ptb--120">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="section-title text-center mb--30">
-                <span class="subtitle">Top clients</span>
-                <h2 class="title">We worked with brands.</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <BrandTwo />
-            </div>
-          </div>
-        </div>
-      </div>
+
+
 
       <Footer />
 

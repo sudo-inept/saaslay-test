@@ -100,42 +100,38 @@ export default {
     return {
       serviceList: [
         {
-          icon: DocumentationIcon,
-          title: "Business Stratagy",
+          title: "Software development consulting",
           description:
-            "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.",
+            "We assess needs, design custom strategies, assist implementation, and provide ongoing support for your business success.",
         },
         {
-          icon: DocumentationIcon,
-          title: "Website Development",
+          title: "Digital transformation consulting",
           description:
-            "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+            "Tailored digital strategy, technology planning, process automation, cultural transformation, data insights, and customer experience enhancement ",
         },
         {
-          icon: DocumentationIcon,
-          title: "Marketing & Reporting",
+          title: "Cloud and Infrastructure Optimization",
           description:
-            "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.",
+            "Comprehensive infrastructure analysis, tailored cloud strategy, seamless migration/deployment, and optimization for performance and cost",
         },
         {
-          icon: DocumentationIcon,
-          title: "Mobile Development",
+          title: "Cybersecurity and Data Privacy",
           description:
-            "Desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "We assess threats, develop tailored security strategies, implement robust architectures, manage incidents, and train for cyber awareness.",
+
         },
         {
-          icon: DocumentationIcon,
-          title: "Email Marketing",
+          title: "IT Project Management",
           description:
-            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.",
+            "Collaborative project definition, meticulous planning, resource & risk management, effective communication, and stringent quality assurance",
+
         },
         {
-          icon: DocumentationIcon,
-          title: "Copywriting",
+          title: "Product Development",
           description:
-            "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for.",
-        },
-      ],
+            "A holistic approach covering product lifecycle. We tailor innovative, user-friendly solutions to meet client needs and goals",
+        }
+      ]
     };
   },
 };
