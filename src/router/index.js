@@ -4,6 +4,7 @@ import Blog from "../components/Blog.vue";
 import BlogDetails from "../components/BlogDetails.vue";
 import Service from "../components/Service.vue";
 import ServiceDetails from "../components/ServiceDetails.vue";
+import ServiceDetailPage from "../components/details/ServiceDetailPage.vue";
 import Contact from "../components/Contact.vue";
 import PortfolioDetails from "../components/PortfolioDetails.vue";
 
@@ -32,6 +33,13 @@ const router = createRouter({
       path: "/service-details",
       name: "service-details",
       component: ServiceDetails,
+      props: true,
+    },
+    {
+      path: "/service-detail",
+      name: "service-detail",
+      component: ServiceDetailPage,
+      props: true,
     },
     {
       path: "/blog",

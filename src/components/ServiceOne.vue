@@ -26,21 +26,21 @@
         serviceList: [
           {
             icon: "FiActivity",
-            title: "SlayHub",
+            title: "Products",
             description:
-              "SlayHub helps your customer facing teams of Zendesk to connect with your product repositories of Azure DevOps or GitHub. This helps your avoid any enhance tracking the inflow of requests, issues or bugs thus helping you serve your customers better.",
+              "SaasLay offers a range of innovative and scalable SaaS products that help businesses streamline operations, enhance productivity, and drive growth.",
           },
           {
             icon: "FiCast",
-            title: "KnowL",
+            title: "Product Development",
             description:
-              "Passages there are many variations variations of of Lorem Ipsum available, but the majority have suffered.",
+              "Our holistic process spans product lifecycle—from ideation to deployment. We understand client needs, creating innovative, user-friendly products. ",
           },
           {
             icon: "FiMap",
-            title: "App Development",
+            title: "Technology Consulting",
             description:
-              "Variations There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+              " SaasLay's tech consulting helps businesses navigate complexities for growth & efficiency. We offer tailored strategic guidance & practical solutions.",
           },
         ],
       };

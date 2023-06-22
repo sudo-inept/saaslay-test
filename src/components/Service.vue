@@ -22,7 +22,7 @@
             v-for="(val, i) in serviceList"
             :key="i"
           >
-            <a href="/service-details">
+            <router-link :to="{path:'/service-details',query:{title:val.title}}">
               <div class="service service__style--2 text-left">
                 <div class="icon"><DocumentationIcon /></div>
                 <div class="content">
@@ -30,7 +30,7 @@
                   <p>{{ val.description }}</p>
                 </div>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
             v-for="(val, i) in serviceList"
             :key="i"
           >
-            <a href="/service-details">
+            <router-link :to="{path:'/service-details',query:{title:val.title}}">
               <div class="service service__style--2 text-left">
                 <div class="icon"><DocumentationIcon /></div>
                 <div class="content">
@@ -64,7 +64,7 @@
                   <p>{{ val.description }}</p>
                 </div>
               </div>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>

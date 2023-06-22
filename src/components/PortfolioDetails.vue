@@ -106,12 +106,12 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <a href="/portfolio-details">
+                                        <router-link to="/portfolio-details">
                                             <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
-                                        </a>
+                                        </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><a href="/portfolio-details">Digital Analysis</a></h4>
+                                        <h4><router-link to="/portfolio-details">Digital Analysis</router-link></h4>
                                         <span class="category">Technique</span>
                                     </div>
                                 </div>
@@ -121,12 +121,12 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <a href="/portfolio-details">
+                                        <router-link to="/portfolio-details">
                                             <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
-                                        </a>
+                                        </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
+                                        <h4><router-link to="/portfolio-details">Plan Management</router-link></h4>
                                         <span class="category">PLANNING</span>
                                     </div>
                                 </div>

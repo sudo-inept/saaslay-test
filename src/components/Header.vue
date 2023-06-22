@@ -16,7 +16,7 @@
               <li class="has-droupdown"><router-link to="/service">Service</router-link>
                 <ul class="submenu">
                   <li><router-link to="/service">Service</router-link></li>
-                  <li><router-link to="/service-details">Service Details</router-link></li>
+                  <li><router-link to="/service-detail">Service Details</router-link></li>
                 </ul>
               </li>
               <li><router-link to="/about">About</router-link></li>

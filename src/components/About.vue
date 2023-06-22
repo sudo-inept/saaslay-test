@@ -11,7 +11,7 @@
             <div class="about-inner inner">
               <div class="section-title">
                 <div class="icon">
-                  <p>senbdivonc</p>
+                  <p>&#8690;</p>
                 </div>
                 <h2 class="title">{{ title }}</h2>
                 <p class="description">{{ description }}</p>
@@ -35,12 +35,12 @@
   export default {
     data() {
       return {
-        title: 'Refreshingly Unique About SaasLay.',
-        description: 'We help businesses thrive in the digital age with our expertise in product development, SaaS products, and technology consulting.',
-        description2: 'We use the latest technologies and best practices to create solutions that help businesses grow and become more efficient.',
-        description3: 'We provide comprehensive services that cover the entire product development lifecycle, from conceptualization to deployment.',
-        description4: 'We have a proven track record of success, with satisfied clients who have seen their businesses grow and improve as a result of our services.',
-        description5: 'We tailor our services to meet the specific needs and goals of each business.',
+        title: 'Our Approach ',
+        description: 'Utilizing the newest tech & best practices, we provide holistic services—from concept to deployment—for business growth & efficiency. Our track record boasts satisfied clients with enhanced businesses due to our custom-tailored solutions. We specialize in targeted growth strategies for each unique business.',
+        description2: '',
+        description3: '',
+        description4: '',
+        description5: '',
       };
     },
 

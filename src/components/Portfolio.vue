@@ -35,7 +35,7 @@
                     </h4>
                   </div>
                   <div class="portfolio_hover">
-                    <p>{{ item.description }}</p>
+                    <p class="">{{ item.description }}</p>
                   </div>
                 </div>
               </div>
@@ -52,27 +52,27 @@ export default {
   name: "Portfolio",
   data() {
     return {
-      title: "Some of our Recent Works",
+      title: "Some of our recent products",
       description:
-        "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.",
+        "Tech-driven innovation firm, committed to empowering businesses with quality solutions",
       portfolioList: [
         {
           image: "/assets/images/portfolio/portfolio-8.jpg",
           category: "Application",
           title: "SlayHub",
-          description: "SlayHub helps your customer facing teams of Zendesk to connect with your product repositories of Azure DevOps or GitHub. This helps your avoid any enhance tracking the inflow of requests, issues or bugs thus helping you serve your customers better.",
+          description: "Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service ",
         },
         {
           image: "/assets/images/portfolio/portfolio-9.jpg",
           category: "Application",
           title: "KnowL",
-          description: "Built a cloud-based Custom Knowledge Base solution for a leading HRMS Solution provider to help their customers understand and leverage their product offerings.",
+          description: "Created cloud-based Knowledge Base for a top HRMS provider, enhancing product understanding",
         },
         {
           image: "/assets/images/portfolio/portfolio-10.jpg",
           category: "Application",
           title: "LoopO",
-          description: "As a chrome extension it helps users leverage the power of ChatGPT to create engaging and tailored comments/posts for LinkedIn effortlessly.",
+          description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
         },
       ],
     };
