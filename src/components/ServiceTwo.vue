@@ -19,7 +19,7 @@
           >
             <router-link :to="{path:'/service-details',query:{title:val.title}}">
               <div class="service service__style--2 text-left">
-                <div class="icon"><IconEcosystem /></div>
+                <div class="icon"><component :is="val.icons" /></div>
                 <div class="content">
                   <h3 class="title">{{ val.title }}</h3>
                   <p >{{ val.description }}</p>
@@ -53,24 +53,28 @@ export default {
       subtitle: "What we can do for you",
       serviceList: [
         {
+          icons: 'IconTooling',
           title: "Software development consulting",
           description:
             "We assess needs, design custom strategies, assist implementation, and provide ongoing support for your business success.",
           path: ""
         },
         {
+          icons: 'IconEcosystem',
           title: "Digital transformation consulting",
           description:
             "Tailored digital strategy, technology planning, process automation, cultural transformation, data insights, and customer experience enhancement ",
           path: ""
         },
         {
+          icons: 'IconSupport',
           title: "Cloud and Infrastructure Optimization",
           description:
             "Comprehensive infrastructure analysis, tailored cloud strategy, seamless migration/deployment, and optimization for performance and cost",
           path: ""
         },
         {
+          icons: 'IconEcosystem',
           title: "Cybersecurity and Data Privacy",
           description:
             "We assess threats, develop tailored security strategies, implement robust architectures, manage incidents, and train for cyber awareness.",
@@ -78,6 +82,7 @@ export default {
 
         },
         {
+          icons: 'IconTooling',
           title: "IT Project Management",
           description:
             "Collaborative project definition, meticulous planning, resource & risk management, effective communication, and stringent quality assurance",
@@ -85,6 +90,7 @@ export default {
 
         },
         {
+          icons: 'IconSupport',
           title: "Product Development",
           description:
             "A holistic approach covering product lifecycle. We tailor innovative, user-friendly solutions to meet client needs and goals",

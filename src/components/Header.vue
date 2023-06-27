@@ -34,11 +34,11 @@
           </div>
           <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
           <span class="mmenutrigger text-white" @click="menuTrigger">
-            <img src="../../public/assets/images/logo/menu.png" alt="Digital Agency" />
+            <img src="/assets/images/logo/menu.png" alt="Digital Agency" />
              </span>
           </div>
           <div class="close-menu d-block d-lg-none">
-              <span class="closeTrigger" @click="CLoseMenuTrigger"><img src="../../public/assets/images/logo/menu.png" alt="Digital Agency" /></span>
+              <span class="closeTrigger" @click="CLoseMenuTrigger"><img src="/assets/images/logo/menu.png" alt="Digital Agency" /></span>
           </div>
         </div>
       </div>
@@ -68,15 +68,15 @@
     computed: {
       logoUrl() {
         if (this.logo === 'light') {
-          return '../../public/assets/images/logo/SaasLay.png';
+          return '/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'dark') {
-          return '../../public/assets/images/logo/SaasLay.png';
+          return '/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'symbol-dark') {
-          return '../../public/assets/images/logo/SaasLay.png';
+          return '/assets/images/logo/SaasLay.png';
         } else if (this.logo === 'symbol-light') {
-          return '../../public/assets/images/logo/SaasLay.png';
+          return '/assets/images/logo/SaasLay.png';
         } else {
-          return '../../public/assets/images/logo/SaasLay.png';
+          return '/assets/images/logo/SaasLay.png';
         }
       }
     },
