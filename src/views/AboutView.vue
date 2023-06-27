@@ -26,9 +26,11 @@
           <div class="col-lg-8 offset-lg-2">
             <div class="inner">
               <div class="content-wrapper">
-                <h4 class="theme-gradient">Find Your Work Now</h4>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                <router-link class="btn-default" to="/about">Get Started</router-link>
+                <div class="content">
+                  <h4 class="theme-gradient">Find Your Work Now</h4>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
+                  <router-link class="btn-default" to="/about">Get Started</router-link>
+                </div>
               </div>
             </div>
           </div>
@@ -105,6 +107,8 @@
                 </div>
 
 
+
+                
 
 
 
