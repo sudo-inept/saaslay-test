@@ -11,7 +11,7 @@
             <div class="about-inner inner">
               <div class="section-title">
                 <div class="icon">
-                  <p>&#8690;</p>
+                  <DocumentationIcon />
                 </div>
                 <h2 class="title">{{ title }}</h2>
                 <p class="description">{{ description }}</p>
@@ -31,8 +31,12 @@
   </template>
   
   <script>
+  import DocumentationIcon from "./icons/IconDocumentation.vue";
   
   export default {
+    components: {
+    DocumentationIcon,
+  },
     data() {
       return {
         title: 'Our Approach ',
