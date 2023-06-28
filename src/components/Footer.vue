@@ -27,10 +27,10 @@
               <div class="ft-text">
                 <div class="logo">
                   <router-link to="/">
-                    <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
+                    <img src="/assets/images/logo/SaasLay.png" alt="SaasLay" />
                   </router-link>
                 </div>
-                <p>Copyright © 2022 <router-link to="/">Imroz</router-link> React Template. Built with love in Bangladesh All rights reserved.</p>
+                <p>Copyright © 2022 <router-link to="/">SaasLay</router-link>. We redefine what's possible. All rights reserved. </p>
               </div>
             </div>
             
@@ -66,9 +66,8 @@
                 <div class="footer-link">
                     <h4>Say Hello</h4>
                     <ul class="ft-link">
-                        <li>Email: <a href="mailto:admin@example.com">admin@example.com</a></li>
-                        <li>Email: <a href="mailto:hr@example.com">hr@example.com</a></li>
-                        <li>Phone: <a href="mailto:hr@example.com">01957485123</a></li>  
+                        <li>Email: <a href="mailto:sales@saaslay.com">sales@saaslay.com</a></li>
+                        <li>Email: <a href="mailto:sales@saaslay.com">sales@saaslay.com</a></li>
                     </ul>
                 </div>
             </div>

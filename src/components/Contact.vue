@@ -37,12 +37,12 @@
                 <!-- <fi-headphones /> -->
               </div>
               <div class="inner">
-                <h4 class="title">Contact Phone Number</h4>
+                <h4 class="title">Contact Us</h4>
                 <p>
-                  <a href="tel:+444 555 666 777">+444 555 666 777</a>
+                  <a href="tel:sales@saaslay.com">sales@saaslay.com</a>
                 </p>
                 <p>
-                  <a href="tel:+222 222 222 333">+222 222 222 333</a>
+                  <a href="tel:sales@saaslay.com">sales@saaslay.com</a>
                 </p>
               </div>
             </div>
@@ -58,10 +58,10 @@
               <div class="inner">
                 <h4 class="title">Our Email Address</h4>
                 <p>
-                  <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+                  <a href="mailto:sales@saaslay.com">sales@saaslay.com</a>
                 </p>
                 <p>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:sales@saaslay.com">sales@saaslay.com</a>
                 </p>
               </div>
             </div>
@@ -76,7 +76,7 @@
               </div>
               <div class="inner">
                 <h4 class="title">Our Location</h4>
-                <p>New York City</p>
+                <p>India</p>
               </div>
             </div>
           </div>
@@ -86,31 +86,7 @@
     </div>
     <!-- End Contact Top Area -->
 
-    <!-- Start Contact Map Area -->
-    <div class="rn-contact-map-area rn-contact-map-area-2">
-      <div class="google-map-area">
-        <div class="container-fluid p-0">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="google-map" id="googleMap">
-                <!-- <google-map-react
-                  :bootstrapURLKeys="{ key: 'AIzaSyDn3XtGZvh52aE0QrBzrQ6rQT6EgTmT_x4' }"
-                  :defaultCenter="{ lat: 59.95, lng: 30.33 }"
-                  :defaultZoom="11"
-                >
-                  <any-react-component
-                    :lat="59.955413"
-                    :lng="30.337844"
-                    text="My Marker"
-                  />
-                </google-map-react> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Contact Map Area -->
+
 
     <!-- Start Contact Area -->
     <div class="rn-contact-area pb--120 bg_color--5">

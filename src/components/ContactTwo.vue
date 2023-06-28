@@ -8,11 +8,11 @@
               <h2 class="title">Contact With Us.</h2>
               <div class="im_address">
                 <span>Call us directly:</span>
-                <a class="link im-hover" href="phone">+111 (0)55 5869 8976</a>
+                <a class="link im-hover" href="mailto:sales@saaslay.com">sales@saaslay.com</a>
               </div>
               <div class="im_address mt--5">
                 <span>Contact Email:</span>
-                <a class="link im-hover" href="email">example@gmail.com</a>
+                <a class="link im-hover" href="mailto:sales@saaslay.com">sales@saaslay.com</a>
               </div>
             </div>
             <FormStyle />

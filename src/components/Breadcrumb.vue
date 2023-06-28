@@ -4,7 +4,8 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="breadcrumb-inner pt--100">
-              <h2 class="title">{{ title }}</h2>
+              <h2 class="title" v-show="title != 'About'">{{ title }}</h2>
+              <h2 class="title" v-show="title == 'About'">{{ pageTitle }}</h2>
               <ul class="page-list">
                 <li class="rn-breadcrumb-item">
                   <router-link to="{{ process.env.PUBLIC_URL }}">Home</router-link>
@@ -30,7 +31,8 @@ export default {
     parent: {
       type: String,
       default: ""
-    }
+    },
+    pageTitle: 'Unleash the Power of Technology with SaasLay!',
   }
 };
 </script>
