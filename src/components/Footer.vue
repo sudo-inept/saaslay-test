@@ -39,11 +39,9 @@
                 <h4>Quick Link</h4>
                 <ul class="ft-list">
                   <li><router-link to="/">Home</router-link></li>
-                  <li><router-link to="/">About</router-link></li>
-                  <li><router-link to="/">Services</router-link></li>
-                  <li><router-link to="/">Work</router-link></li>
-                  <li><router-link to="/">Blog</router-link></li>
-                  <li><router-link to="/">Contact</router-link></li>
+                  <li><router-link to="/about">About</router-link></li>
+                  <li><router-link to="/service">Our Services</router-link></li>
+                  <li><router-link to="/contact">Contact</router-link></li>
                 </ul>
               </div>
             </div>
@@ -53,11 +51,9 @@
                     <h4>Company</h4>
                     <ul class="ft-link">
                         <li><router-link to="/">Home</router-link></li>
-                  <li><router-link to="/">About</router-link></li>
-                  <li><router-link to="/">Services</router-link></li>
-                  <li><router-link to="/">Work</router-link></li>
-                  <li><router-link to="/">Blog</router-link></li>
-                  <li><router-link to="/">Contact</router-link></li>
+                  <li><router-link to="/about">About</router-link></li>
+                  <li><router-link to="/service">Our Services</router-link></li>
+                  <li><router-link to="/contact">Contact</router-link></li>
                     </ul>
                 </div>
             </div>
