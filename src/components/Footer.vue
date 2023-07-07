@@ -30,7 +30,7 @@
                     <img src="/assets/images/logo/SaasLay.png" alt="SaasLay" />
                   </router-link>
                 </div>
-                <p>Copyright © 2022 <router-link to="/">SaasLay</router-link>. We redefine what's possible. All rights reserved. </p>
+                <p>Copyright © {{ currentYear }} <router-link to="/">SaasLay</router-link>. We redefine what's possible. All rights reserved. </p>
               </div>
             </div>
             
@@ -77,6 +77,15 @@
 
 export default {
   name: "Footer",
+  data() {
+    return {
+      currentYear: null
+    };
+  },
+  created() {
+    const date = new Date();
+    this.currentYear = date.getFullYear();
+  }
 };
 </script>
 
