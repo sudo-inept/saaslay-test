@@ -20,12 +20,12 @@
                 </ul>
               </li>
               <li><router-link to="/about">About</router-link></li>
-              <li class="has-droupdown"><router-link to="/blog">Pages</router-link>
+              <!-- <li class="has-droupdown"><router-link to="/blog">Pages</router-link>
                 <ul class="submenu">
                   <li><router-link to="/blog">Blog List</router-link></li>
                   <li><router-link to="/blog-details">Blog Details</router-link></li>
                 </ul>
-              </li>
+              </li> -->
               <li><router-link to="/contact">Contact</router-link></li>
             </ul>
           </nav>

@@ -63,7 +63,6 @@
                     <h4>Say Hello</h4>
                     <ul class="ft-link">
                         <li>Email: <a href="mailto:sales@saaslay.com">sales@saaslay.com</a></li>
-                        <li>Email: <a href="mailto:sales@saaslay.com">sales@saaslay.com</a></li>
                     </ul>
                 </div>
             </div>

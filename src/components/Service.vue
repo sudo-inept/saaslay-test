@@ -7,11 +7,11 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-title text-center mb--30">
-              <span class="subtitle">Our Marketing</span>
-              <h2>Digital Marketing</h2>
+              <span class="subtitle">Our Services</span>
+              <h2>Our products and services</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available, <br />
-                but the majority have suffered alteration.
+                SaasLay empowers businesses with innovative tech solutions. <br />
+                Our expert team is committed to achieving your goals with quality service. 
               </p>
             </div>
           </div>
@@ -36,39 +36,7 @@
       </div>
     </div>
 
-    <div class="service-area ptb--120 bg_color--1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title text-center mb--30">
-              <span class="subtitle">Our Marketing</span>
-              <h2>Digital Marketing</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available, <br />
-                but the majority have suffered alteration.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row service-main-wrapper">
-          <div
-            class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-            v-for="(val, i) in serviceList"
-            :key="i"
-          >
-            <router-link :to="{path:'/service-details',query:{title:val.title}}">
-              <div class="service service__style--2 text-left">
-                <div class="icon"><DocumentationIcon /></div>
-                <div class="content">
-                  <h3 class="title">{{ val.title }}</h3>
-                  <p>{{ val.description }}</p>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <Footer />
   </div>
