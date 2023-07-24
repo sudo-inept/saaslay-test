@@ -6,8 +6,8 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="rn-page-title text-center pt--100">
-                                    <h2 class="title theme-gradient">Software Architecture and Development Consulting</h2>
-                                    <p>We help you build the software you need to succeed, from ideation to deployment.</p>
+                                    <h2 class="title theme-gradient">Slayhub</h2>
+                                    <p>Your Ultimate Zendesk, AzureDevOps, and GitHub Integration Solution</p>
                                 </div>
                             </div>
                         </div>
@@ -22,67 +22,52 @@
                             <div class="col-lg-12">
                                 <div class="portfolio-details">
                                     <div class="row row--35 mb--50">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="inner">
                                                 <div class="section-title">
                                                     <h2 class="title">Our Approach</h2>
-                                                    <p class="description mt--30">Requirements analysis and planning: We collaborate with your team to understand your business objectives, processes, and technical requirements. Through meticulous analysis, we identify key software development needs and define a strategic roadmap to ensure a successful outcome.</p>
-                                                    <p class="description">Architecture design and strategy: Our experienced architects design a solid software architecture that lays the foundation for a scalable and flexible system. We focus on modularity, reusability, and future growth, taking into account factors such as performance, security, and integration capabilities.</p>
-                                                </div>
-                                                <div class="portfolio-view-list d-flex flex-wrap">
-                                                    <div class="port-view">
-                                                        <span>Branch</span>
-                                                        <h4>Ability</h4>
-                                                    </div>
-
-                                                    <div class="port-view">
-                                                        <span>Project Types</span>
-                                                        <h4>Website</h4>
-                                                    </div>
-
-                                                    <div class="port-view">
-                                                        <span>Program</span>
-                                                        <h4>View Project</h4>
-                                                    </div>
+                                                    <p class="description mt--30">‘SlayHub’ is a seamless way to handle change requests, bugs, and user stories without any hiccups. It bridges the gap between Zendesk, AzureDevOps, and GitHub.</p>
+                                                    <h4 class="title">Smooth Flow of Customer Success Tickets</h4> 
+                                                    <p class="description">SlayHub is designed to be the go-to solution for businesses seeking a harmonious connection between their customer success and development operations. With SlayHub, bidirectional ticket syncing becomes a breeze! Whether you're resolving a customer issue in Zendesk or working on a bug fix in AzureDevOps or GitHub, SlayHub ensures that all teams are on the same page, fostering a truly collaborative environment.</p>
+                                                    <h4 class="title">Empower Your Teams for Better Results</h4> 
+                                                    <p class="description">In today's fast-paced business landscape, streamlined communication is essential. SlayHub empowers your teams to communicate efficiently, driving productivity and enhancing the quality of your product development process. No more siloed departments; with SlayHub, your customer success and development teams become a united force working towards building the best product feature set.</p>
+                                                    <h4 class="title">Seamless Integration, No More Hassle</h4> 
+                                                    <p class="description">Say goodbye to the days of manual data entry and scattered information. SlayHub's intuitive and easy-to-use interface seamlessly integrates Zendesk, AzureDevOps, and GitHub, automating the ticket synchronization process. You can now focus on what truly matters—delivering exceptional customer experiences and crafting remarkable products.</p>
                                                 </div>
                                                 <div class="portfolio-details-btn mt--30">
                                                     <a class="btn-default btn-border" href="#">Launch The Site</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12 mt--30">
                                             <div class="portfolio-details-accordion mt_md--40 mt_sm--40">
                                                 <div class="inner">
                                                     <div class="section-title">
-                                                        <h4 class="title">Our software architecture and development consulting services offer a number of benefits</h4> 
-                                                        <p class="description mt--30">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form have suffered alteration in some form.</p>
-                                                        <p class="description mt--30">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                                        <ul class="list-style--1">
-                                                            <li>Expert guidance</li>
-                                                            <li>Customized solutions</li>
-                                                            <li>Scalability and flexibility</li>
-                                                            <li>Reduced time-to-market</li>
-                                                        </ul>
+                                                        <h4 class="title">Key Features</h4> 
+                                                        <p class="description mt--30">Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service</p>
+                                                            <p class="description mt--30">Two-Way Ticket Sync: SlayHub synchronizes customer success tickets between Zendesk and AzureDevOps or GitHub, ensuring that updates and changes flow smoothly in both directions.</p>
+                                                            <p class="description mt--30">Real-Time Collaboration: Foster a culture of collaboration by enabling real-time updates and status tracking, so your teams can work together harmoniously towards shared goals.</p>
+                                                            <p class="description mt--30">Customizable Mapping: Tailor SlayHub to your unique workflow with customizable field mapping, ensuring the right information reaches the right teams.</p>
+                                                            <p class="description mt--30">Automatic Ticket Assignment: SlayHub intelligently assigns tickets to the appropriate teams based on predefined rules, reducing response time and avoiding confusion.</p>
+                                                            <p class="description mt--30">Detailed Insights & Analytics: Gain valuable insights into your ticket flow and team performance with SlayHub's comprehensive analytics dashboard.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="portfolio-thumb-inner">
+                                    <div class="portfolio-thumb-inner">
                                         <div class="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                            <button class="video-popup position-top-center" onClick={this.openModal}><span class="play-icon"></span></button>
+                                            <img src="/assets/images/portfolio/portfolio-big-03.png" alt="Portfolio Images"/>
                                         </div>
                                         
                                         <div class="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/portfolio-big-02.png" alt="Portfolio Images"/>
                                         </div>
 
                                         <div class="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/portfolio-big-01.png" alt="Portfolio Images"/>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -106,13 +91,13 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <router-link to="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
+                                        <router-link to="/productknowl">
+                                            <img src="/assets/images/portfolio/portfolio-big-01-knowl.png" alt="Portfolio-images" width="600" height="414"/>
                                         </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><router-link to="/portfolio-details">Digital Analysis</router-link></h4>
-                                        <span class="category">Technique</span>
+                                        <h4><router-link to="/productknowl">Knowl</router-link></h4>
+                                        <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
@@ -121,13 +106,13 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <router-link to="/portfolio-details">
+                                        <router-link to="/productloopo">
                                             <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
                                         </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><router-link to="/portfolio-details">Plan Management</router-link></h4>
-                                        <span class="category">PLANNING</span>
+                                        <h4><router-link to="/productloopo">Loopo</router-link></h4>
+                                        <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
@@ -150,38 +135,20 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
-import ScrollTopArrow from "./ScrollTopArrow.vue";
+import Footer from "../Footer.vue";
+import ScrollTopArrow from "../ScrollTopArrow.vue";
 
-import SliderOne from "./SliderOne.vue";
-import ServiceTwo from "./ServiceTwo.vue";
-import Testimonial from "./Testimonial.vue";
-import About from "./About.vue";
-import Portfolio from "./Portfolio.vue";
-import BrandTwo from "./BrandTwo.vue";
-import BlogList from "./BlogList.vue";
-import BlogContent from "./BlogContent.js";
-import CounterOne from "./CounterOne.vue";
+import Portfolio from "../Portfolio.vue";
 
 export default {
   name: "MainDemo",
   components: {
-    Header,
     Footer,
-    SliderOne,
-    ServiceTwo,
-    Testimonial,
-    About,
     Portfolio,
-    BrandTwo,
     ScrollTopArrow,
-    BlogList,
-    CounterOne,
   },
   data() {
     return {
-      PostList: BlogContent.slice(0, 3),
       activePortfolio: { title: "", },
       portfolioList: [
       {

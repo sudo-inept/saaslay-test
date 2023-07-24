@@ -5,6 +5,9 @@ import BlogDetails from "../components/BlogDetails.vue";
 import Service from "../components/Service.vue";
 import ServiceDetails from "../components/ServiceDetails.vue";
 import ServiceDetailPage from "../components/details/ServiceDetailPage.vue";
+import ProductKnowl from "../components/details/ProductKnowl.vue";
+import ProductSlayhub from "../components/details/ProductSlayhub.vue";
+import ProductLoopo from "../components/details/ProductLoopo.vue";
 import Contact from "../components/Contact.vue";
 import PortfolioDetails from "../components/PortfolioDetails.vue";
 
@@ -33,13 +36,11 @@ const router = createRouter({
       path: "/service-details",
       name: "service-details",
       component: ServiceDetails,
-      props: true,
     },
     {
       path: "/service-detail",
       name: "service-detail",
       component: ServiceDetailPage,
-      props: true,
     },
     {
       path: "/blog",
@@ -60,6 +61,21 @@ const router = createRouter({
       path: "/portfolio-details",
       name: "portfolio-details",
       component: PortfolioDetails,
+    },
+    {
+      path: "/productknowl",
+      name: "productknowl",
+      component: ProductKnowl,
+    },
+    {
+      path: "/productslayhub",
+      name: "productslayhub",
+      component: ProductSlayhub,
+    },
+    {
+      path: "/productloopo",
+      name: "productloopo",
+      component: ProductLoopo,
     },
   ],
 });

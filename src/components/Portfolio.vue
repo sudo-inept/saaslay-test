@@ -19,7 +19,7 @@
             <div class="im_portfolio">
               <div class="thumbnail_inner">
                 <div class="thumbnail">
-                  <router-link to="/portfolio-details">
+                  <router-link :to="item.path">
                     <img v-bind:src="item.image" alt="React Creative Agency" />
                   </router-link>
                 </div>
@@ -28,10 +28,10 @@
                 <div class="inner">
                   <div class="portfolio_heading">
                     <div class="category_list">
-                      <router-link :to="'/portfolio-details'">{{ item.category }}</router-link>
+                      <router-link :to="item.path">{{ item.category }}</router-link>
                     </div>
                     <h4 class="title">
-                      <router-link :to="'/portfolio-details'">{{ item.title }}</router-link>
+                      <router-link :to="item.path">{{ item.title }}</router-link>
                     </h4>
                   </div>
                   <div class="portfolio_hover">
@@ -39,7 +39,7 @@
                   </div>
                 </div>
               </div>
-              <router-link class="transparent_link" :to="'/portfolio-details'"></router-link>
+              <router-link class="transparent_link" :to="item.path"></router-link>
             </div>
           </div>
         </div>
@@ -57,25 +57,29 @@ export default {
         "Tech-driven innovation firm, committed to empowering businesses with quality solutions",
       portfolioList: [
         {
-          image: "/assets/images/portfolio/portfolio-8.jpg",
+          image: "/assets/images/portfolio/portfolio-8.webp",
           category: "Application",
           title: "SlayHub",
-          description: "Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service ",
+          description: "Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service",
+          path: "/productslayhub",
         },
         {
           image: "/assets/images/portfolio/portfolio-9.jpg",
           category: "Application",
           title: "KnowL",
           description: "Created cloud-based Knowledge Base for a top HRMS provider, enhancing product understanding",
+          path: "/productknowl",
         },
         {
           image: "/assets/images/portfolio/portfolio-10.jpg",
           category: "Application",
           title: "LoopO",
           description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
+          path: "/productloopo",
         },
       ],
     };
   },
+
 };
 </script>
