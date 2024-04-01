@@ -34,16 +34,12 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12">
             <div class="rn-address">
               <div class="icon">
-                <!-- <fi-headphones /> -->
               </div>
               <div class="inner">
                 <h4 class="title">Contact Us</h4>
                 <p>
                   <a href="tel:sales@saaslay.com">sales@saaslay.com</a>
                 </p>
-                <p>
-                  <a href="tel:sales@saaslay.com">sales@saaslay.com</a>
-                </p>
               </div>
             </div>
           </div>
@@ -53,26 +49,6 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12">
             <div class="rn-address">
               <div class="icon">
-                <!-- <fi-mail /> -->
-              </div>
-              <div class="inner">
-                <h4 class="title">Our Email Address</h4>
-                <p>
-                  <a href="mailto:sales@saaslay.com">sales@saaslay.com</a>
-                </p>
-                <p>
-                  <a href="mailto:sales@saaslay.com">sales@saaslay.com</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End Single Address -->
-
-          <!-- Start Single Address -->
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <div class="rn-address">
-              <div class="icon">
-                <!-- <fi-map-pin /> -->
               </div>
               <div class="inner">
                 <h4 class="title">Our Location</h4>

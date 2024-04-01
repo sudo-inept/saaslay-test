@@ -6,10 +6,6 @@
             <div class="section-title text-left mb--50">
               <span class="subtitle">Let's Say Hi</span>
               <h2 class="title">Contact With Us.</h2>
-              <div class="im_address">
-                <span>Call us directly:</span>
-                <a class="link im-hover" href="mailto:sales@saaslay.com">sales@saaslay.com</a>
-              </div>
               <div class="im_address mt--5">
                 <span>Contact Email:</span>
                 <a class="link im-hover" href="mailto:sales@saaslay.com">sales@saaslay.com</a>

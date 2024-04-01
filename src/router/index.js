@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import MainDemo from "../components/MainDemo.vue";
 import Blog from "../components/Blog.vue";
 import BlogDetails from "../components/BlogDetails.vue";
@@ -8,11 +8,12 @@ import ServiceDetailPage from "../components/details/ServiceDetailPage.vue";
 import ProductKnowl from "../components/details/ProductKnowl.vue";
 import ProductSlayhub from "../components/details/ProductSlayhub.vue";
 import ProductLoopo from "../components/details/ProductLoopo.vue";
+import ProductBenchmark from "../components/details/ProductBenchmark.vue";
 import Contact from "../components/Contact.vue";
 import PortfolioDetails from "../components/PortfolioDetails.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
@@ -63,19 +64,24 @@ const router = createRouter({
       component: PortfolioDetails,
     },
     {
-      path: "/productknowl",
-      name: "productknowl",
+      path: "/knowl",
+      name: "knowl",
       component: ProductKnowl,
     },
     {
-      path: "/productslayhub",
-      name: "productslayhub",
+      path: "/slayhub",
+      name: "slayhub",
       component: ProductSlayhub,
     },
     {
-      path: "/productloopo",
-      name: "productloopo",
+      path: "/loopo",
+      name: "loopo",
       component: ProductLoopo,
+    },
+    {
+      path: "/benchmark",
+      name: "benchmark",
+      component: ProductBenchmark,
     },
   ],
 });

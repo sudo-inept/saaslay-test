@@ -16,7 +16,7 @@
               <li class="has-droupdown"><router-link to="/service">Service</router-link>
                 <ul class="submenu">
                   <li><router-link to="/service">Service</router-link></li>
-                  <li><router-link to="/service-detail">Service Details</router-link></li>
+                  <!-- <li><router-link to="/service-detail">Service Details</router-link></li> -->
                 </ul>
               </li>
               <li><router-link to="/about">About</router-link></li>
@@ -30,7 +30,7 @@
             </ul>
           </nav>
           <div class="header-btn">
-            <a class="btn-default btn-border btn-signin" @click="showSigninModal = true">Sign In</a>
+            <a class="btn-default btn-border btn-signin">Sign In</a>
           </div>
           <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
           <span class="mmenutrigger text-white" @click="menuTrigger">
@@ -42,9 +42,6 @@
           </div>
         </div>
       </div>
-      <modal v-if="showSigninModal" @close="showSigninModal = false">
-        <!-- Sign In Form Goes Here -->
-      </modal>
     </header>
   </template>
   

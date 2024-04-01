@@ -35,7 +35,7 @@
                                                     <p class="description">Say goodbye to the days of manual data entry and scattered information. SlayHub's intuitive and easy-to-use interface seamlessly integrates Zendesk, AzureDevOps, and GitHub, automating the ticket synchronization process. You can now focus on what truly matters—delivering exceptional customer experiences and crafting remarkable products.</p>
                                                 </div>
                                                 <div class="portfolio-details-btn mt--30">
-                                                    <a class="btn-default btn-border" href="#">Launch The Site</a>
+                                                    <a class="btn-default btn-border" href="https://slayhub.io/">Launch The Site</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -88,30 +88,45 @@
                         </div>
                         <div class="row mt--10">
                             <!-- {/* Start Single Portfolio */} -->
-                            <div class="col-lg-6 col-md-6 col-12">
+                            <div class="col-lg-4 col-md-4 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <router-link to="/productknowl">
+                                        <router-link to="/knowl">
                                             <img src="/assets/images/portfolio/portfolio-big-01-knowl.png" alt="Portfolio-images" width="600" height="414"/>
                                         </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><router-link to="/productknowl">Knowl</router-link></h4>
+                                        <h4><router-link to="/knowl">Knowl</router-link></h4>
                                         <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
                              <!-- {/* End Single Portfolio */} -->
                             <!-- {/* Start Single Portfolio */} -->
-                            <div class="col-lg-6 col-md-6 col-12">
+                            <div class="col-lg-4 col-md-4 col-12">
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
-                                        <router-link to="/productloopo">
+                                        <router-link to="/loopo">
                                             <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
                                         </router-link>
                                     </div>
                                     <div class="inner">
-                                        <h4><router-link to="/productloopo">Loopo</router-link></h4>
+                                        <h4><router-link to="/loopo">Loopo</router-link></h4>
+                                        <span class="category"></span>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- {/* End Single Portfolio */} -->
+                            <!-- {/* Start Single Portfolio */} -->
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="related-work text-center mt--30">
+                                    <div class="thumb">
+                                        <router-link to="/benchmark">
+                                            <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
+                                        </router-link>
+                                    </div>
+                                    <div class="inner">
+                                        <h4><router-link to="/benchmark">Benchmark</router-link></h4>
                                         <span class="category"></span>
                                     </div>
                                 </div>
@@ -150,57 +165,6 @@ export default {
   data() {
     return {
       activePortfolio: { title: "", },
-      portfolioList: [
-      {
-          title: "KnowL",
-          subtitle: "Empowering Exceptional Customer Support and Knowledge Management",
-          description: "Created cloud-based Knowledge Base for a top HRMS provider, enhancing product understanding",
-          para: "KnowL is an innovative customer support and knowledge management app designed to revolutionize the way businesses interact with their customers. Our app is built on the foundation of providing exceptional support experiences and fostering strong customer relationships. KnowL offers a comprehensive suite of features and tools that streamline support operations and enable businesses to deliver outstanding customer service across various communication channels.",
-          subpara: "Central to KnowL is its powerful ticketing system, which serves as a centralized hub for managing customer inquiries. Regardless of the communication channel—email or self-service portals—KnowL organizes and prioritizes customer requests, ensuring they are promptly assigned to the appropriate support agents. This streamlined approach saves time, reduces response times, and enables your support team to efficiently resolve customer issues.",
-          heading: "Key Features",
-          subheading: "To empower customers in finding answers independently, KnowL offers a robust self-service knowledge base. This knowledge base acts as a comprehensive library of articles, FAQs, and tutorials that customers can access anytime, anywhere. By empowering customers to help themselves, KnowL reduces support ticket volumes, improves efficiency, and enhances overall customer satisfaction.",
-          pointone: "",
-          pointtwo: "",
-          pointthree: "",
-          pointfour: "",
-          pointfive: "",
-          link: "",
-          imgpath1: "",
-        },
-        {
-          title: "Slayhub",
-          subtitle: "Your Ultimate Zendesk, AzureDevOps, and GitHub Integration Solution",
-          description: "Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service",
-          para: "‘SlayHub’ is a seamless way to handle change requests, bugs, and user stories without any hiccups. It bridges the gap between Zendesk, AzureDevOps, and GitHub.",
-          subpara: "",
-          heading: "Key Features",
-          subheading: "",
-          pointone: "Two-Way Ticket Sync",
-          pointtwo: "Real-Time Collaboration",
-          pointthree: "Customizable Mapping",
-          pointfour: "Automatic Ticket Assignment",
-          pointfive: "Detailed Insights & Analytics",
-          link: "",
-          imgpath1: "",
-        },
-        
-        {
-          title: "LoopO",
-          subtitle: "Revolutionize Your Communication with the Power of ChatGPT and Google Chrome Extensions!",
-          description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
-          para: "We always wish there was a way to supercharge our messages and ignite our LinkedIn presence effortlessly right? Well, LoopO is here to transform the way you communicate and take your writing skills to new heights",
-          subpara: "",
-          heading: "Key Features",
-          subheading: "Unleash the full potential of ChatGPT and take your writing skills to the next level with LoopO. From crafting captivating emails to elevating your LinkedIn presence, this revolutionary tool will transform the way you communicate, saving you time and effort while producing exceptional results.",
-          pointone: "Craft Captivating Emails, LinkedIn Posts",
-          pointtwo: "Supercharge Your Email Messages",
-          pointthree: "Ignite Your LinkedIn Presence",
-          pointfour: "Master the Art of Responses",
-          pointfive: "Revamp Your Writing Anywhere, Anytime",
-          link: "",
-          imgpath1: "",
-        }
-      ]
     }
   },
   mounted() {

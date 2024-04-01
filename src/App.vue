@@ -11,11 +11,7 @@ export default {
 
 <template>
   <div class="active-dark">
-    <Header
-      :headertransparent="'header--transparent'"
-      :colorblack="'color--black'"
-      :logoname="'logo.png'"
-    />
+    <Header/>
     </div>
     <Router-view></Router-view>
 </template>

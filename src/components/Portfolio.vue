@@ -47,7 +47,7 @@
     </div>
   </template>
   
-  <script>
+<script>
 export default {
   name: "Portfolio",
   data() {
@@ -61,21 +61,28 @@ export default {
           category: "Application",
           title: "SlayHub",
           description: "Bridging Zendesk and Azure/GitHub for efficient tracking & superior customer service",
-          path: "/productslayhub",
+          path: "/slayhub",
         },
         {
           image: "/assets/images/portfolio/portfolio-9.jpg",
           category: "Application",
           title: "KnowL",
           description: "Created cloud-based Knowledge Base for a top HRMS provider, enhancing product understanding",
-          path: "/productknowl",
+          path: "/knowl",
         },
         {
           image: "/assets/images/portfolio/portfolio-10.jpg",
           category: "Application",
           title: "LoopO",
           description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
-          path: "/productloopo",
+          path: "/loopo",
+        },
+        {
+          image: "/assets/images/portfolio/portfolio-10.jpg",
+          category: "Application",
+          title: "Benchmark",
+          description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
+          path: "/benchmark",
         },
       ],
     };
