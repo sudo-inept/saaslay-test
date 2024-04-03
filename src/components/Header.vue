@@ -15,7 +15,12 @@
               </li>
               <li class="has-droupdown"><router-link to="/service">Service</router-link>
                 <ul class="submenu">
-                  <li><router-link to="/service">Service</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'Software development consulting'}}">Software development consulting</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'Digital transformation consulting'}}">Digital transformation consulting</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'Cloud and Infrastructure Optimization'}}">Cloud and Infrastructure Optimization</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'Cybersecurity and Data Privacy'}}">Cybersecurity and Data Privacy</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'IT Project Management'}}">IT Project Management</router-link></li>
+                  <li><router-link :to="{path:'/service-details',query:{title:'Product Development'}}">Product Development</router-link></li>
                   <!-- <li><router-link to="/service-detail">Service Details</router-link></li> -->
                 </ul>
               </li>

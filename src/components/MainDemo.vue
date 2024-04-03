@@ -1,4 +1,4 @@
-<template>    
+<template>
   <div class="active-dark"> 
   
       <!-- Start Slider Area -->
@@ -33,10 +33,6 @@
     <!-- Start Footer Style  -->
     <Footer />
     <!-- End Footer Style  -->
-    <!-- Start Back To Top -->
-
-    <!-- End Back To Top -->
-
   </div>
 </template>
   

@@ -28,15 +28,6 @@
                         src="/assets/images/service/service-01.png"
                         alt="Service Images"
                       />
-                      <modal-video
-                        channel="youtube"
-                        :isOpen="isOpen"
-                        videoId="ZOoVOfieAF8"
-                        @close="closeModal"
-                      />
-                      <button class="video-popup" @click="openModal">
-                        <span class="play-icon"></span>
-                      </button>
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
@@ -278,10 +269,13 @@ export default {
       this.isOpen = false;
     },
   },
-  mounted() {
-    this.activeService = this.serviceList.filter((service) => {
-      return service.title == this.$route.query.title;
-    })[0];
+  watch: {
+    "$route.query.title": {
+      handler(newVal, oldVal) {
+        this.activeService = this.serviceList.filter((service) => service.title === newVal)[0];
+      },
+      immediate: true,
+    },
   },
 };
 </script>
