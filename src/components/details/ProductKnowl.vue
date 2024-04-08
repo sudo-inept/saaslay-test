@@ -154,15 +154,5 @@ export default {
     Portfolio,
     ScrollTopArrow,
   },
-  data() {
-    return {
-      activePortfolio: { title: "", },
-    }
-  },
-  mounted() {
-    this.activePortfolio = this.portfolioList.filter((service) => {
-      return service.title == this.$route.query.title;
-    })[0];
-  },
 };
 </script>

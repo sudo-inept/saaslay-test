@@ -84,6 +84,10 @@ const router = createRouter({
       component: ProductBenchmark,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 });
 
 export default router;

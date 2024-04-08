@@ -10,9 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="active-dark">
     <Header/>
-    </div>
-    <Router-view></Router-view>
+    <RouterView />
 </template>
 
