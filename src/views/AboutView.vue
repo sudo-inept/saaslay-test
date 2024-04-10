@@ -161,10 +161,16 @@
     </div>
 
     <Footer />
+            <!-- Start Back To Top -->
+            <div class="backto-top">
+      <ScrollTopArrow />
+    </div>
+    <!-- End Back To Top -->
   </div>
 </template>
 
 <script>
+import ScrollTopArrow from "../components/ScrollTopArrow.vue";
 import Testimonial from "../components/Testimonial.vue";
 import BrandTwo from "../components/BrandTwo.vue";
 import Header from "../components/Header.vue";
@@ -178,6 +184,7 @@ export default {
     Testimonial,
     BrandTwo,
     Header,
+    ScrollTopArrow,
     Footer,
     AboutComp,
   },

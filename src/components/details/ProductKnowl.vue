@@ -129,15 +129,15 @@
                 </div>
                 <!-- {/* End Related Work */} -->
 
-                    <!-- Start Back To Top -->
+    <!-- Start Footer Style  -->
+    <Footer />
+    <!-- End Footer Style  -->
+    <!-- Start Back To Top -->
     <div class="backto-top">
       <ScrollTopArrow />
     </div>
     <!-- End Back To Top -->
 
-    <!-- Start Footer Style  -->
-    <Footer />
-    <!-- End Footer Style  -->
     </div>
 </template>
 
