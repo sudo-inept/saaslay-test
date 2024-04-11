@@ -78,10 +78,10 @@ export default {
           path: "/loopo",
         },
         {
-          image: "/assets/images/portfolio/portfolio-10.jpg",
-          category: "Application",
+          image: "/assets/images/portfolio/portfolio-10.png",
+          category: "Web-Platform",
           title: "Benchmark",
-          description: "Chrome extension uses ChatGPT for crafting engaging, tailored LinkedIn comments/posts.",
+          description: "Navigate the AI Revolution: Find the Perfect Software with Ease.Making AI Software Selection Simple, Efficient, and Reliable.",
           path: "/benchmark",
         },
       ],

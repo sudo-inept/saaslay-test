@@ -120,7 +120,7 @@
                                 <div class="related-work text-center mt--30">
                                     <div class="thumb">
                                         <router-link to="/benchmark">
-                                            <img src="/assets/images/portfolio/portfolio-big-01-knowl.png" alt="Portfolio-images" width="600" height="414"/>
+                                            <img src="/assets/images/portfolio/portfolio-10.png" alt="Portfolio-images" width="600" height="414"/>
                                         </router-link>
                                     </div>
                                     <div class="inner">
